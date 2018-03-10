@@ -9,8 +9,8 @@ A short recipe to setup a fully automated three-node Kubernetes cluster in your 
  - VT-x/AMD-v virtualization must be enabled in BIOS
  - Internet connection on first run
 # Setting up the Kubernetes cluster
-`git clone https://github.com/DevOnGlobal/k8s-cluster`
-`cd k8s-cluster`
-`vagrant up`
-`vagrant ssh k8s-master`
-`kubectl get nodes`
+ - `git clone https://github.com/DevOnGlobal/k8s-cluster`
+ - `cd k8s-cluster`
+ - `vagrant up`
+ - `vagrant ssh k8s-master`
+ - `kubectl get nodes`
